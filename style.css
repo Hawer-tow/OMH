@@ -1,0 +1,91 @@
+/*this is the style applied to the webpage items*/
+.swoptions{
+			background-color:white;
+			width:100%;
+			display:table;
+			}
+			/*this is the style applied to the link to other items in the webpage*/
+.cont{
+	text-decoration: none;
+	text-align: center;
+	background-color: aquamarine;
+	color:white;
+	float: left;
+	border: 1px solid bisque;
+	width: 19%;
+
+ }
+ /*This is the style applied to the items when they are hoverede about*/
+ .cont :hover{color: darkblue;
+ 	background-color: darkturquoise;
+   }
+
+
+
+
+nav{ float: left;
+	 background-color: aqua;
+	 width: 200px;
+	 height: 500px;
+	 border: 1px solid black;
+}
+nav ul{list-style-type: none;
+		color: darkblue;
+		text-align: left;
+}
+/*style applied to the navigation list items*/
+nav ul li:hover{color: gold;}
+
+/*this is the style applied to the articles*/
+article{float: left;
+	width:  1035px;
+	background-color: white;
+	height: 500px;
+	overflow: auto;
+	padding-left: 13px;
+
+}
+section{ display: table;
+	clear: both;
+	content:"";
+}
+ /* this is the style applied to the footer */
+footer{   
+            text-align:center;
+            color:white;
+			background-color:cornflowerblue;
+			width:100%;
+			height:auto;
+			padding:3px;
+			}
+/* this is the style to the header */
+header{color:black; 
+	font-size:bold; 
+	font-family:sans-serif;
+	background-color:cornflowerblue; 
+	text-align:center; 
+	padding:3px;
+	 border:1px solid black;
+	 border-radius: 2px;
+	}
+	/* this is the style ´for the hypertexts */
+	a{
+		text-decoration: none;
+	}
+/*this is the style applied to all the tables in the web page*/
+	table,th,td{border: 1px solid blue;
+	 				border-collapse: collapse;
+
+	}
+	table{
+			width: 500px;
+			height: 250px;
+	}
+body{
+	background-color: gainsboro;
+}
+/*this is the style used in the buttons*/
+button{
+	background-color: rebeccapurple;
+	color: gold;
+}
